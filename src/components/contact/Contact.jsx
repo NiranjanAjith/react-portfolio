@@ -16,25 +16,48 @@ const Contact = () => {
     return (
     <section className="contact section" id="contact">
         <h2 className="section__title">Let's Connect</h2>
-        <span className="section__subtitle">Contact Me</span>
+        <span className="section__subtitle"></span>
 
         <div className="contact__container container grid">
             <div className="contact__content">
                 <h3 className="contact__title">Talk to me</h3>
-                
+
                 <div className="contact__info">
                     <div className="contact__card">
                         <HiOutlineMail className="contact__card-icon" />
                         
                         <h3 className="contact__card-title">Email</h3>
-                        <span className="contact__card-data">cyphrsylph@gmail.com</span>
+                        <span className="contact__card-data">niranjanajithkumar@gmail.com</span>
                         
-                        <a href="mailto:cyphersylph@gmail.com" className="contact__button">
+                        <a href="mailto:niranjanajithkumar@gmail.com" className="contact__button">
                             Write Me{" "} 
                             <HiOutlineArrowSmRight className="contact__button-icon" />
                         </a>
                     </div>
+                    <div className="contact__card">
+                        <HiOutlineMail className="contact__card-icon" />
+                        
+                        <h3 className="contact__card-title">LinkedIn</h3>
+                        <span className="contact__card-data">Niranjan Ajith</span>
+                        
+                        <a href="https://www.linkedin.com/in/niranjan-ajith" className="contact__button">
+                            Connect{" "} 
+                            <HiOutlineArrowSmRight className="contact__button-icon" />
+                        </a>
+                    </div>
+                    <div className="contact__card">
+                        <HiOutlineMail className="contact__card-icon" />
+                        
+                        <h3 className="contact__card-title">GitHub</h3>
+                        <span className="contact__card-data">NiranjanAjith</span>
+                        
+                        <a href="https://www.github.com/NiranjanAjith" className="contact__button">
+                            Check Out My Work{" "} 
+                            <HiOutlineArrowSmRight className="contact__button-icon" />
+                        </a>
+                    </div>
                 </div>
+
             </div>
 
             <div className="contact__content">

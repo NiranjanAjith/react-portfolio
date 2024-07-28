@@ -1,14 +1,22 @@
 import React from 'react';
 import "./about.css";
-import AboutImg from "../../assets/aboutBW.jpeg";
-import CV from "../../assets/Example-Cv.pdf";
+import AboutImg from "../../assets/NIRANJAN.jpg";
+import CV from "../../assets/Niranjan_Ajith_Kumar(MSc_CS_2025).pdf";
 import Info from "./Info";
 
 const About = () => {
   return (
     <section className="about section" id="about">
         <h2 className="section__title">About Me</h2>
-        <span className="section__subtitle">A short introduction</span>
+        <br/><span className="section__subtitle">Hey there! Welcome to my portfolio!
+            <div className="about__body">
+                <br/><p>I’m currently working on my MSc in Computer Science with a focus on AI at Cochin University of Science and Technology (CUSAT). I have a strong background in programming, especially with Python, C++, and Java. My studies have helped me build solid problem-solving skills and taught me the importance of teamwork, thanks to the many projects and hackathons I've been part of.</p>
+                <br/><p>Before diving into computer science, I got my BSc in Physics from the University of Calicut. This gave me a solid foundation in math and analytical thinking. I also cracked the JAM exam by IITs for the MSc Physics program, which was a big milestone for me.</p>
+                <br/><p>I'm really passionate about using AI and programming to create cool tech solutions. On the side, I'm also into sports like badminton, basketball, and taekwondo, which keeps me balanced and energized.</p>
+                <br/><p>As I continue to learn and grow, I’m excited to connect with others who are into AI and tech. I’m always up for collaborating on projects, sharing ideas, or just chatting about the latest in technology.</p>
+                <br/><p>Feel free to reach out if you want to connect or talk about anything tech-related!</p>
+            </div>
+        </span>
         <div className="about__container container grid">
             <img src={AboutImg} alt="about" className="about__img" />
             <div className="about__data">
@@ -16,7 +24,7 @@ const About = () => {
                 <p className="about__description">
                     I create applications highlighting minimal design and friendly UI/UX interfaces.
                 </p>
-                <a download="" href={CV} className="button button--flex">
+                <a href={CV} target='_blank' rel='noreferrer' className="button button--flex">
                     Download CV
                     <svg
                         class="button__icon"

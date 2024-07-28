@@ -59,7 +59,7 @@ const Data = () => {
             Developer
         </h3>
         <p className="home__description">
-            Back-end developer and AI enthusiast.
+            Full Stack Web developer and AI enthusiast.
         </p>
 
         <a href="#contact" className="button button--flex">

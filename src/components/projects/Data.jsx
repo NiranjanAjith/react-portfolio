@@ -7,34 +7,43 @@ export const projectsData = [
     {
         id: 1,
         image: Project1,
-        title: "Project 1",
-        category: "A",
+        title: "Interaction Trainer",
+        category: "Interaction Trainer",
     },
     {
         id: 2,
         image: Project2,
-        title: "Project 2",
-        category: "B",
+        title: "StethoSense",
+        category: "StethoSense",
     },
     {
         id: 3,
         image: Project3,
-        title: "Project 3",
-        category: "C",
+        title: "FinWise",
+        category: "FinWise",
+    },
+    {
+        id: 4,
+        image: Project3,
+        title: "EcoBins",
+        category: "EcoBins",
     },
 ];
 
 export const projectsNav = [
     {
-        name: "All",
+        name: "All"
     },
     {
-        name: "A",
+        name: "Interaction Trainer",
     },
     {
-        name: "B",
+        name: "StethoSense",
     },
     {
-        name: "C",
+        name: "FinWise",
+    },
+    {
+        name: "EcoBins",
     },
 ];
