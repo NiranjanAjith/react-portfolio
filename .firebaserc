@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "react-folio-001"
-  }
+    "default": "portfolio-249ed",
+    "portfolio": "portfolio-249ed"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }
