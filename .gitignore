@@ -18,4 +18,12 @@
 
 npm-debug.log*
 yarn-debug.log*
+<<<<<<< Updated upstream
 yarn-error.log*
+=======
+yarn-error.log*
+
+#firebase
+.json
+.rules
+>>>>>>> Stashed changes
