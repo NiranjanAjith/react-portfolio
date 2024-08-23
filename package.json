@@ -38,11 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-<<<<<<< Updated upstream
   },
   "devDependencies": {
     "firebase-tools": "^11.21.0"
-=======
->>>>>>> Stashed changes
   }
 }
